@@ -1,2 +1,2 @@
 # Data-Structures-and-Algorithms
-Here the practiced codes of DSA will be uploaded.
+Here the practiced codes of DSA is uploaded.
