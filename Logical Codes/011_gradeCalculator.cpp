@@ -1,12 +1,11 @@
 #include<iostream>
-#include<cmath>
 using namespace std;
 
-int combinedMarks(int att, int hw, int exam){
+int combinedMarks(float att, float hw, float exam){
 
-    if(att > 100 || hw > 100 || exam > 100){
+    if(att > 100 || hw > 100 ||exam > 100){
         cout << "Invalid marks." << endl;
-        return 0;  
+        return -1;
     }
 
     float totalMarks =
@@ -14,12 +13,12 @@ int combinedMarks(int att, int hw, int exam){
         hw  * 0.30 +
         exam * 0.50;
 
-    return round(totalMarks); 
+    return (int) totalMarks;
 }
 
 int main(){
 
-    int attendance, homework, exam;
+    float attendance, homework, exam;
 
     cout << "Enter your Attendance Marks : ";
     cin >> attendance;
@@ -32,7 +31,7 @@ int main(){
 
     int result = combinedMarks(attendance, homework, exam);
 
-    if(result != 0){
+    if(result != -1){
         cout << "\nYour Combined Marks : " << result;
     }
 
