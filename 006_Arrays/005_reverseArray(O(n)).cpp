@@ -2,6 +2,7 @@
 using namespace std;
 
 // Using extra space
+// SC: O(n) and TC: O(n)   || Space Complexity ,  Time Complexity
 
 void printArr(int *arr, int n){
     for(int i=0; i<n; i++){
