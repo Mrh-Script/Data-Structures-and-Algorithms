@@ -5,10 +5,13 @@ using namespace std;
 
 void printArray(int *ptr, int n){
     for(int i=0; i<n; i++){
-        cout << *ptr << endl;
-        ptr++;
-    }
+        //Way 1
+        // cout << *ptr << endl;
+        // ptr++;
 
+        //Way 2
+        cout << (*ptr + i) << endl;
+    }
 }
 
 int main(){
