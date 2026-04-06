@@ -20,3 +20,4 @@ This repository contains my practiced codes for Data Structures and Algorithms.
 ### 006. Basic Sorting Algorithms
 - Bubble Sort  
 - Selection Sort
+- Insertion Sort
