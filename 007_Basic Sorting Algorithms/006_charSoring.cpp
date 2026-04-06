@@ -1,7 +1,8 @@
+//Problem : Sort the given Characters in Descending order Using Insertion Sort 
+//Array , ch[] = {'f', 'b', 'a', 'e', 'c', 'd'};
+
 #include<iostream>
 using namespace std;
-
-//Using Insertion Sort 
 
 void printArray(char ch[], int n){
     cout << "Sorted Characters : ";
