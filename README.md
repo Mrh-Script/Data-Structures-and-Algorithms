@@ -21,3 +21,4 @@ This repository contains my practiced codes for Data Structures and Algorithms.
 - Bubble Sort  
 - Selection Sort
 - Insertion Sort
+- Counting Sort
