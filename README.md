@@ -22,3 +22,4 @@ This repository contains my practiced codes for Data Structures and Algorithms.
 - Selection Sort
 - Insertion Sort
 - Counting Sort
+- In Bluilt Sorting Algorithms
